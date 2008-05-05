@@ -1,0 +1,52 @@
+perl-LWP-Authen-Wsse
+------------------------------------------
+X-WSSE authentication module for Perl LWP
+
+Runtime requirements:
+  perl-5.10.0-3
+  perl-Digest-SHA1-2.11-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/LWP-Authen-Wsse/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/A/AU/AUTRIJUS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-LWP-Authen-Wsse-0.04-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-LWP-Authen-Wsse-0.04-X.cygport all
+
+This will create:
+  /usr/src/perl-LWP-Authen-Wsse-0.04-X-src.tar.bz2
+  /usr/src/perl-LWP-Authen-Wsse-0.04-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/LWP/Authen/Wsse.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/LWP/Authen/Wsse/.packlist
+  /usr/share/doc/perl-LWP-Authen-Wsse-0.04/Changes
+  /usr/share/doc/perl-LWP-Authen-Wsse-0.04/README
+  /usr/share/man/man3/LWP.Authen.Wsse.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.04-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

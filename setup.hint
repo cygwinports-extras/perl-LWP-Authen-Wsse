@@ -1,0 +1,4 @@
+category: Perl
+requires: perl perl-Digest-SHA1
+sdesc: "Perl LWP X-WSSE authentication module"
+ldesc: "X-WSSE authentication module for Perl LWP"
